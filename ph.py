@@ -18,10 +18,13 @@ W = '\033[0m'
 Y = '\033[33m'
 
 #link :v
-urlGithub = 'https://github.com/Mika259'
-os.system('clear')
-print(f"\n      {R}\033[46m[×]{B}{urlGithub}{R}[×]\033[49m\n    ")
 
+os.system('clear')
+text = "\n      \033[31m\033[46m[×]\033[30mhttps://github.com/Mika259\033[31m[×]\033[49m        \n\n"
+
+for char in text:
+    print(char, end='', flush=True)
+    t.sleep(0.1)
 #function :)
 def menu():
         number = input(f"{G}Insert Phonenumber : {W}")
@@ -35,7 +38,10 @@ def menu():
         if user == 'y':
                 menu()
         elif user == 'n':
-                print(f"{b}Thanks For Using Me{W} :)")
+                text1 ="\033[34mThanks For Using Me :)\033[0m\n"
+                for char in text1:
+                        print(char, end='', flush=True)
+                        t.sleep(0.1)
                 exit()
         else:
                 print(f"{R}Error Command!{W}")
@@ -44,5 +50,4 @@ menu()
 #Tool by Mika259 😜
 #don't steal my tools without my permision (credits me)
 
-#these my hand water lah (malay)
-
+#these my water hand lah
