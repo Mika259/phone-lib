@@ -44,4 +44,5 @@ menu()
 #Tool by Mika259 😜
 #don't steal my tools without my permision (credits me)
 
-#these my water hand lah
+#these my hand water lah (malay)
+
