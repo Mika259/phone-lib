@@ -20,6 +20,14 @@ Y = '\033[33m'
 #link :v
 
 os.system('clear')
+banner='''
+___  _  _ ____ _  _ ____    _    _ ___  ™
+|__] |__| |  | |\ | |___ __ |    | |__] 
+|    |  | |__| | \| |___    |___ | |__] 
+                                        
+
+'''
+print(f"{G}{banner}{W}")
 text = "\n      \033[31m\033[46m[×]\033[30mhttps://github.com/Mika259\033[31m[×]\033[49m        \n\n"
 
 for char in text:
