@@ -7,7 +7,7 @@ import time as t                                                #:v
 from  phonenumbers import geocoder, carrier, timezone
 
 #color terminal
-b = '\033[34m'
+G = '\033[34m'
 B = '\033[30m'
 R = '\033[31m'                                                  G = '\033[32m'
 C = '\033[36m'                                                  W = '\033[0m'
