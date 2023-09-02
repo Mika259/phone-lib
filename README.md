@@ -14,7 +14,7 @@ cd phone-lib
 
 - run
 ```shell
-python ph.py
+python phlib.py
 ```
 
 <em>Enjoy Using This Tool Guys</em>
